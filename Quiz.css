@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    margin: 108px;
+    text-align: center;
+}
+
+.quiz-container {
+    background: linear-gradient(97deg, #000428 , #0057a3); /* Gradient background for the container */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 90px;
+    box-shadow : rgba(110, 223, 238, 0.863)16px 49px 133px 12px;
+   
+}
+
+h1 {
+    color: #fff; /* White text color for headings */
+    font-size: 24px;
+}
+
+.question {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #ffffff; /* white text color for questions */
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    margin: 10px 0;
+    padding: 10px;
+    background: linear-gradient(142deg, #ddd6f3 , #8fe4ff); color: #000000; /* dark text color for option */
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.option:hover {
+    background: linear-gradient(135deg, #2980b9, #2077b4); /* Darker gradient on hover */
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff; /* White text color for results */
+}
+
+#next-btn {
+    margin-top: -20px;
+    padding: 3px 9px;
+    background: #ff9ef7;
+    color: #000000;
+    border: none;
+    border-radius: 29px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#next-btn:hover {
+    background:#ff79f4; /* Darker color on hover */
+}

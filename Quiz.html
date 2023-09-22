@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="b.css">
+    <title>GK Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>General Knowledge Quiz</h1>
+        <div class="question">
+            <p id="question-text">Question goes here</p>
+        </div>
+        <div class="options">
+            <button class="option" onclick="checkAnswer(this)">Option 1</button>
+            <button class="option" onclick="checkAnswer(this)">Option 2</button>
+            <button class="option" onclick="checkAnswer(this)">Option 3</button>
+            <button class="option" onclick="checkAnswer(this)">Option 4</button>
+        </div>
+        <p id="result"></p>
+        <button id="next-btn" onclick="nextQuestion()"><h5>Next Question</h5></button>
+    </div>
+
+    <script src="b.js"></script>
+</body>
+</html>
